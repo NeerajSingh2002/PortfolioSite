@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    font-family: 'Kanit', sans-serif;
+    background-color: rgb(191, 187, 187);
+    width: 15vw;
+    transition: transform 0.5s;
+    /* position:absolute; */
+}
+
+.sidebar nav{
+    padding:30px 10px; 
+}
+.sidebar nav a{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+.sidebar nav ul li{
+    list-style: none;
+    padding: 30px 20px;
+    font-size: 30px;
+
+    
+}
+.infocontainor{
+    background-color: rgb(236, 234, 238);
+    height: 59vh;
+    width: 80vw;
+    margin: 78px auto;
+    display: flex;
+    justify-content: space-around;
+}
+#containor{
+    display: flex;
+    height: 100vh;
+    /* flex-direction: row; */
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    /* position: absolute; */
+}
+.photo img{
+    height: 58vh;
+    border: 2px solid black;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello{
+    font-size: 45px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+}
+
+.about{
+    font-size: 35px;
+    font-family: 'Kanit', sans-serif;
+
+}
+.button{
+    padding-top: 35px;
+}
+
+.button button{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(191, 187, 187);
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.button button:hover{
+    background-color:black ;
+    color:rgb(191, 187, 187) ;
+    border-color: rgb(191, 187, 187);
+
+
+}
+.button .secondbut{
+    padding-right:30px ;
+    padding-left:30px ;
+}
+
+
+.button .firstbut{
+    padding-right:25px ;
+    padding-left:25px ;
+
+}
+
+.contactform{
+    font-family: 'Kanit', sans-serif;
+    padding: 0 35px;
+    /* padding-top: 150px; */
+    font-size: 20px;
+    /* background-color:rgb(236, 234, 238); */
+}
+.contactform h1{
+    text-align: center;
+    margin-bottom: 40px;
+    /* margin-bottom: 100px; */
+}
+
+.mb-3{
+    margin-bottom: 20px;
+}
+#emailHelp{
+    margin-top: 20px;
+}
+
+.contactform div{
+    display: flex;
+    flex-direction: column;
+}
+.contactform div input{
+    width: 40vw;
+    padding: 5px;
+
+}
+.btn{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: rgb(191, 187, 187);
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+    padding-right:25px ;
+    padding-left:25px ;
+
+}
+.contactform button:hover{
+    background-color:black ;
+    color:rgb(191, 187, 187) ;
+    border-color: rgb(191, 187, 187);
+
+}
+.blogcontainor{
+    font-size: 20px;
+
+}
+.blogcontainor h1{
+    margin-left:40%;
+    font-family: 'Kanit', sans-serif;
+    
+
+}
+
+.blogcontainor .blog1{
+    margin: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+.blogcontainor .blog2{
+    margin: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+.blogcontainor .blog3{
+    margin: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.blogbtn{
+    /* padding: 5px; */
+    border-radius: 20px;
+    background-color: rgb(191, 187, 187);
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    
+    padding-right:20px ;
+    padding-left:20px ;
+
+}
+.blogbtn:hover{
+    background-color:black ;
+    color:rgb(191, 187, 187) ;
+    border-color: rgb(191, 187, 187);
+
+}
+
+.introcontainor{
+    font-family: 'Kanit', sans-serif;
+    /* padding: 0 35px; */
+    /* padding-top: 150px; */
+    font-size: 20px;
+    /* background-color:rgb(236, 234, 238); */
+
+}
+
+.introcontainor h1{
+    margin-left:40%;
+    margin-bottom: 35px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.introcontainor p{
+    margin-left: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.introcontainor .techskill{
+    margin: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+.skill{
+    /* border: 2px solid red; */
+    margin-left: 40px;
+    display: flex;
+}
+.skill div{
+    /* border: 2px solid red; */
+    margin-right: 10%;
+    margin-top: 18px;
+
+}
+/* .skill ul li{
+    margin-right: 80px;
+} */
+.skill p{
+    margin-left: 0px;
+    font-size: larger;
+    font-weight: bold;
+}
+.sidebarGo{
+    transform: translate(-250px);
+    /* position: absolute; */
+}
+.hamburger{
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hamburger .ham{
+    margin-left: -190px;
+    /* position: fixed; */
+}
+/* .hamburger .back{
+    margin-left: -50px;
+} */
+@media (max-width: 1480px) {
+    /* body{
+      background-color: lightgreen;
+    } */
+    /* .sidebar{
+        transform: translate(-225px);
+        position: absolute;
+    } */
+  }
